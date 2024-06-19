@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(../Img/handsome-man-cutting-beard-barber-salon.jpg);
+    background-size: cover;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.Navbar{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;  
+}
+.Logo{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.Logo img{
+    width: 50px;
+    height: 50px;
+    padding-right: 3px;
+}
+.Logo a {
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.Navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #A67B5B;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.Navbar a:hover{
+    background: #3f3f3f;
+}
+
+.contain-form{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contain-div-form{
+    width: 600px;
+    height: 600px;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(136, 173, 255, 0.3));
+    
+}
+
+.contain-h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.form-label{
+    font-size: 25px;
+}
+
+.contain-formulario{
+    width: 500px;
+}
+
+.teta{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mb-3{
+   padding: 10px 0px;
+   
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: 20px;
+}
